@@ -8,7 +8,17 @@
 </head>
 <body>
   <script type="text/javascript">
-    
+    var Bodyweight = prompt("Enter your body weight in kilograms: ")
+    if(isNaN(Bodyweight)) {
+     alert("This converter only accepts numbers. Please put a number in next time.")
+     var Bodyweight = prompt("Enter your body weight in kilograms: ")
+    }
+    var heightMetres = prompt("Enter your height in metres: ")
+    if(isNaN(heightMetres)) {
+     alert("This converter only accepts numbers. Please put a number in next time.")
+      var heightMetres = prompt("Enter your height in metres: ")
+    }
+  
   </script>
 </body>
 </html>
