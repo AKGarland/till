@@ -10,7 +10,11 @@
   <script type="text/javascript">
     var farenheit = prompt("Please enter the temperature in farenheit you'd like to convert.");
     var celsius = ((farenheit-32)*5)/9
-    alert("In celsius that equals: " + celsius + " degrees")
+    if(isNaN(celsuis)){
+      alert("This converter only accepts numbers. Please refresh and try to put a number in next time.");
+    } else {
+      alert("In celsius that equals: " + celsius + " degrees")
+    }
   </script>
 </body>
 </html>
